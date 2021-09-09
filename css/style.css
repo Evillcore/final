@@ -3926,7 +3926,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 
   .cooperation__img img {
-    max-width: 150px;
+    max-width: 300px;
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
   }
 }
 
